@@ -1,0 +1,53 @@
+.calculatorCard {
+  margin: 10px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #747d7f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .description {
+    font-size: 1rem;
+    color: #333;
+  }
+  .button {
+    margin-top: 10px;
+    width: 70%;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .result {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #374133;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .resultText {
+      margin-right: 10px;
+    }
+  }
+}
